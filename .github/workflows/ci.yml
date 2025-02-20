@@ -34,3 +34,6 @@ jobs:
 
     - name: List build directory
       run: dir build
+
+    - name: Esperar 4 sec
+      run: sleep 4
